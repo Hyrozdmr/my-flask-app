@@ -1,3 +1,3 @@
 # contained-python
 
-This is a simple Python/Flash 'Hello World' app created for workshop examples.
+This is a simple Python/Flask 'Hello World' app created for workshop examples.
