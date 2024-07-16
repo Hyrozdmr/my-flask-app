@@ -34,3 +34,10 @@ RUN pip install -r requirements.txt
 # CMD: Used to provide defaults for an executing container.
 # python /app/main.py: Runs the main.py script located in the /app directory using Python.
 CMD python /app/main.py
+
+# Step-by-Step Process
+# Base Image: Start with a lightweight Python 3.8 image based on Alpine Linux.
+# Copy Application Code: Copy all your application code from the host machine to the /app directory in the container.
+# Set Working Directory: Set the working directory to /app so all subsequent commands are run from this location.
+# Install Dependencies: Use pip to install any Python packages listed in requirements.txt.
+# Run the Application: Specify the command to run your application, which in this case is python /app/main.py.
