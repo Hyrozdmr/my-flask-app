@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-  return "Hello, world! Here's my favorite film quote: 'live fast , die handsome.' Moesha, Hayri"
+  return "Hello, world! Here's my favorite film quote: 'May the Force be with you' Moesha, Hayri"
   
 
 
