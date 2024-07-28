@@ -6,8 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-  return "Hello, world! Here's my favorite film quote: 'May the Force be with you' Moesha, Hayri"
-  
+  return render_template('index.html')
 
 
 if __name__ == "__main__":
